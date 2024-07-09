@@ -1,0 +1,73 @@
+/* shared styles */
+
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-semibold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-extrabold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+.banner{
+    background-image: url("../assets/Hero-bg.png");
+    text-align: center;
+    margin-top: 20px;
+}
+.banner h1{
+    font-size: 48px;
+    font-weight: 800;
+}
+.banner-btn{
+    background-color: #0D1321;
+    color: white;
+    font-size: 20px;
+    padding: 24px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+/* motive section */
+.motive-title{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.motive-title h1{
+    font-size: 32px;
+    font-weight: 800;
+}
+.reason1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:48px 150px 48px 150px;
+}
+.reason1 h3{
+    font-size: 24px;
+}
+.learn-more-btn{
+    margin-top: 10px;
+    padding: 12px 20px 12px 20px;
+}
+.reason2{
+    display: flex;
+    align-items: center;
+    margin:48px 150px 48px 150px;
+    
+}
