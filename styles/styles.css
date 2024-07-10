@@ -142,13 +142,15 @@ input {
 }
 
 /* Footer part */
-.footer {
+#footer {
   display: grid;
   grid-template-columns: auto auto;
   justify-content: space-between;
+  margin: 32px 150px 32px 150px;
 }
 
 .contact-us {
   display: grid;
   grid-template-columns: auto auto auto;
+  gap: 15px;
 }
