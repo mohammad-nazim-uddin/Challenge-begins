@@ -81,16 +81,19 @@
 .target-html {
   background-color: #FF4C1E0D;
   padding: 40px;
+  border-radius: 10px;
 }
 
 .target-css {
   background-color: #004CE80D;
   padding: 40px;
+  border-radius: 10px;
 }
 
 .target-js {
   background-color: #FFDF000D;
   padding: 40px;
+  border-radius: 10px;
 }
 .my-target a{
   text-decoration-line:underline;
