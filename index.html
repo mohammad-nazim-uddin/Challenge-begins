@@ -7,23 +7,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
     <title>Challenge Begins</title>
   </head>
-  <body>
+  <body class="font">
     <!-- banner section -->
     <div class="banner">
-      <img src="assets/Group.png" alt="" />
-      <h1 class="roboto-bold">
+      <div class="banner-body">
+        <img src="assets/Group.png" alt="" />
+      <h1>
         "In the near future, I hope to become a Developer."
       </h1>
-      <p class="roboto-regular">
+      <p>
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text.
       </p>
       <button class="banner-btn">Contact with me</button>
+      </div>
     </div>
 
     <!-- motive section -->
@@ -36,9 +38,9 @@
       </p>
     </div>
     <div class="reason1">
-      <div class="">
-        <h3 class="roboto-bold">I will Do Coding and Change The World</h3>
-        <p class="roboto-regular">
+      <div class="reason-text">
+        <h3>I will Do Coding and Change The World</h3>
+        <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry.
         </p>
@@ -77,8 +79,8 @@
 
     <!-- My inspiration -->
     <div class="motive-title">
-      <h1 class="roboto-bold">My inspiraton</h1>
-      <p class="roboto-regular">
+      <h1>My inspiraton</h1>
+      <p style="margin-left: 160px; margin-right:160px ; padding: 20px;">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam sequi
         facere minus, dolorum adipisci nesciunt omnis rem! Maiores, quia
         aperiam.
@@ -93,9 +95,9 @@
 
     <!-- my current target -->
     <div>
-      <div class="motive-title">
-        <h1 class="roboto-bold">My Current Target</h1>
-        <p class="roboto-regular">
+      <div class="target-title">
+        <h1>My Current Target</h1>
+        <p style="margin-left: 160px; margin-right:160px ; padding: 20px;">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam
           sequi facere minus, dolorum adipisci nesciunt omnis rem! Maiores, quia
           aperiam.
@@ -130,17 +132,33 @@
     </div>
 
     <!-- Support Section -->
-     <div>
-        `<div>
-          <h1>I need Support</h1>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque tempore fugit consequatur est fugiat ea ex illum beatae?</p>
-        </div>
-        <div>
-          <form action="">
-            <input type="text" placeholder="suggest me any feedback for me">
-          </form>
-          <button>Submit</button>
-        </div>
-     </div>
+    <div class="support">
+      `
+      <div>
+        <h1>I need Support</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque
+          tempore fugit consequatur est fugiat ea ex illum beatae?
+        </p>
+      </div>
+      <div class="input-feedback">
+        <form action="">
+          <input type="text" placeholder="suggest me any feedback for me" />
+        </form>
+        <button class="submit-btn">Submit</button>
+      </div>
+    </div>
+
+    <!-- Footer Sectionn -->
+    <section class="footer">
+      <div>
+        <h2>An open commitment By Nazim Uddin Asif</h2>
+      </div>
+      <div class="contact-us">
+        <img src="assets/facebook.png" alt="" />
+        <img src="assets/github.png" alt="" />
+        <img src="assets/linkedin-icon 1.png" alt="" />
+      </div>
+    </section>
   </body>
 </html>

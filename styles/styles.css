@@ -1,94 +1,154 @@
 /* shared styles */
+.font {
+  font-family: "Azeret Mono", monospace;
+}
+.banner {
+  background-image: url("../assets/Hero-bg.png");
+}
+.banner-body {
+  text-align: center;
+  padding: 49px;
+}
+.banner h1 {
+  font-size: 48px;
+  font-weight: 800;
+}
+.banner p {
+  color: #0D1321;
+}
 
-  .roboto-regular {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .roboto-semibold {
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-  }
-  
-  .roboto-bold {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .roboto-extrabold {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-  
-.banner{
-    background-image: url("../assets/Hero-bg.png");
-    text-align: center;
-    margin-top: 20px;
-}
-.banner h1{
-    font-size: 48px;
-    font-weight: 800;
-}
-.banner-btn{
-    background-color: #0D1321;
-    color: white;
-    font-size: 20px;
-    padding: 24px;
-    border-radius: 5px;
-    margin-top: 15px;
+.banner-btn {
+  font-family: "Azeret Mono", monospace;
+  background-color: #0D1321;
+  color: white;
+  font-size: 20px;
+  padding: 24px;
+  border-radius: 5px;
+  margin-top: 15px;
 }
 
 /* motive section */
-.motive-title{
-    margin-top: 80px;
-    margin-bottom: 80px;
-    text-align: center;
+.motive-title {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  text-align: center;
 }
-.motive-title h1{
-    font-size: 32px;
-    font-weight: 800;
+
+.motive-title h1 {
+  font-size: 32px;
+  font-weight: 800;
+  
 }
-.reason1{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin:48px 150px 48px 150px;
+
+.reason1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 48px 150px 48px 150px;
 }
-.reason1 h3{
-    font-size: 24px;
+.reason1 h3 {
+  font-size: 24px;
 }
-.learn-more-btn{
-    margin-top: 10px;
-    padding: 12px 20px 12px 20px;
+
+.learn-more-btn {
+  font-family: "Azeret Mono", monospace;
+  border-radius: 5px;
+  background-color:white;
+  margin-top: 10px;
+  padding: 12px 20px 12px 20px;
 }
-.reason2{
-    display: flex;
-    align-items: center;
-    margin:48px 150px 48px 150px;
-    
+
+.reason2 {
+  display: flex;
+  align-items: center;
+  margin: 48px 150px 48px 150px;
+
 }
 
 /* My target */
-.my-target{
+.target-title{
+  text-align: center;
+  margin-bottom: -20px;
+}
+.my-target {
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-gap:24px;
+  grid-gap: 24px;
   padding: 50px;
-  margin: 48px 111px 150px 150px;
+  margin: 48px 150px 10px 150px;
 }
-.target-html{
+
+.target-html {
   background-color: #FF4C1E0D;
   padding: 40px;
 }
-.target-css{
-  background-color:#004CE80D;
+
+.target-css {
+  background-color: #004CE80D;
   padding: 40px;
 }
-.target-js{
+
+.target-js {
   background-color: #FFDF000D;
   padding: 40px;
+}
+.my-target a{
+  text-decoration-line:underline;
+  font-size:16px;
+  color: black;
+  font-weight: 700;
+}
+
+/* Support Section */
+.support {
+  background-image: url('../assets/handshake.jpg');
+  background-size: cover;
+  text-align: center;
+  margin: 41px 150px 79px 150px;
+  padding: 40px 40px 100px 40px
+}
+.support h1{
+  color: #FFFFFF;
+}
+.support p{
+  color:#FFFFFF;
+  font-size: 16px;
+}
+.input-feedback {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 30px;
+  justify-content: center;
+
+}
+
+input {
+  padding: 20px;
+  width: 548px;
+  border: none;
+  border-radius: 10px;
+}
+
+.submit-btn {
+  padding: 5px;
+  width: 120px;
+  color: #0D1321;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  font-family: "Azeret Mono", monospace;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+/* Footer part */
+.footer {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+
+.contact-us {
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
